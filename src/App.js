@@ -95,7 +95,7 @@ function App() {
             <TextField
               placeholder="Title"
               multiline
-              onChange={(e) => setMessage(e.target.value)}
+              onChange={(e) => setTitle(e.target.value)}
               style={{ width: 400 }}
               rows={1}
             />
@@ -106,7 +106,7 @@ function App() {
               multiline
               onChange={(e) => setMessage(e.target.value)}
               style={{ width: 400 }}
-              rows={10}
+              rows={20}
             />
             <h3>Sent at: </h3>
             <DateTimePicker onChange={onChangeDate} value={date} />
