@@ -106,7 +106,7 @@ function App() {
               multiline
               onChange={(e) => setMessage(e.target.value)}
               style={{ width: 400 }}
-              rows={20}
+              rows={30}
             />
             <h3>Sent at: </h3>
             <DateTimePicker onChange={onChangeDate} value={date} />
